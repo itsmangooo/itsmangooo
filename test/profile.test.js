@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, rm, mkdir, writeFile } from 'node:fs/promises';
+import { mkdtemp, readFile, rm, mkdir, writeFile, readdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { addDays, windowFor, monthWindows, fetchContributions, createClient, validateSnapshot } from '../scripts/github.js';
@@ -141,6 +141,18 @@ test('offline generation is deterministic and a failed refresh retains every goo
     await mkdir(join(root,'data'));
     await writeFile(join(root,'data/snapshot.json'),JSON.stringify(fixture()));
     const first=await generate({root,offline:true});assert.ok(first.changed>0);
+    assert.equal((await generate({root,offline:true})).changed,0);
+    const original=await readdir(join(root,'assets'));
+    const originalStats=original.find(name=>name.startsWith('stats-dark-'));
+    const originalHeader=original.find(name=>name.startsWith('header-dark-'));
+    await writeFile(join(root,'assets/notes.txt'),'Preserve unrelated files.');
+    const changed=fixture();changed.days.at(-1).commits++;changed.days.at(-1).total++;
+    await writeFile(join(root,'data/snapshot.json'),JSON.stringify(changed));
+    await generate({root,offline:true});
+    const current=await readdir(join(root,'assets'));
+    assert.equal(current.filter(name=>name.endsWith('.svg')).length,28);
+    assert.ok(!current.includes(originalStats));assert.ok(current.includes(originalHeader));
+    assert.equal(await readFile(join(root,'assets/notes.txt'),'utf8'),'Preserve unrelated files.');
     assert.equal((await generate({root,offline:true})).changed,0);
     const before=await readFile(join(root,'README.md'),'utf8');
     const snapshot=await readFile(join(root,'data/snapshot.json'),'utf8');
