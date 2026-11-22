@@ -1,0 +1,74 @@
+name: Refresh the workbench
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'test/**'
+      - 'package.json'
+      - '.github/workflows/refresh.yml'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'test/**'
+      - 'package.json'
+      - '.github/workflows/refresh.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: workbench-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - run: npm test
+      - run: npm run check
+
+  refresh:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Fetch public data and draw SVGs
+        run: npm run generate
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - run: npm run check
+      - name: Commit only changed outputs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add README.md assets/ data/snapshot.json
+          if git diff --cached --quiet; then
+            echo "Public snapshot unchanged. No commit needed."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh public workbench widgets'
+          git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin HEAD:main

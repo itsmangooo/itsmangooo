@@ -1,0 +1,3449 @@
+{
+  "schemaVersion": 1,
+  "login": "itsmangooo",
+  "capturedOn": "2026-11-22",
+  "range": {
+    "start": "2025-11-23",
+    "end": "2026-11-22"
+  },
+  "repositories": [
+    {
+      "name": "FIRELINE-ADRIATIC",
+      "url": "https://github.com/itsmangooo/FIRELINE-ADRIATIC",
+      "description": "Cooperative Adriatic firefighting simulation prototype in Unity 6 HDRP and C#. M03 flight/water work in progress.",
+      "language": "C#",
+      "languages": {
+        "C#": 481866,
+        "Python": 216378,
+        "PowerShell": 69144,
+        "Shell": 4118
+      },
+      "stars": 0,
+      "pushedAt": "2026-10-26T21:35:29Z",
+      "archived": false,
+      "topics": [
+        "csharp",
+        "firefighting",
+        "hdrp",
+        "multiplayer",
+        "prototype",
+        "self-hosted",
+        "simulation",
+        "unity"
+      ]
+    },
+    {
+      "name": "Flare",
+      "url": "https://github.com/itsmangooo/Flare",
+      "description": "Self-hosted Android homelab administration with Flutter, a Go API, and Docker/Coolify integrations.",
+      "language": "Dart",
+      "languages": {
+        "Dart": 368403,
+        "Go": 356283,
+        "HTML": 3735,
+        "PowerShell": 1874,
+        "Dockerfile": 663,
+        "Kotlin": 128
+      },
+      "stars": 0,
+      "pushedAt": "2026-09-12T22:02:16Z",
+      "archived": false,
+      "topics": [
+        "android",
+        "coolify",
+        "dart",
+        "docker",
+        "flutter",
+        "golang",
+        "homelab",
+        "monitoring",
+        "self-hosted"
+      ]
+    },
+    {
+      "name": "offdeck",
+      "url": "https://github.com/itsmangooo/offdeck",
+      "description": "First-person 3D multiplayer party card game for desktop browsers.",
+      "language": "JavaScript",
+      "languages": {
+        "JavaScript": 286015,
+        "CSS": 21281,
+        "HTML": 4263,
+        "Dockerfile": 787
+      },
+      "stars": 0,
+      "pushedAt": "2026-11-18T14:48:10Z",
+      "archived": false,
+      "topics": [
+        "browser-game",
+        "javascript",
+        "multiplayer",
+        "nodejs",
+        "party-game",
+        "socket-io",
+        "threejs"
+      ]
+    },
+    {
+      "name": "portfolio",
+      "url": "https://github.com/itsmangooo/portfolio",
+      "description": null,
+      "language": "HTML",
+      "languages": {
+        "HTML": 11018
+      },
+      "stars": 0,
+      "pushedAt": "2025-12-13T10:08:32Z",
+      "archived": false,
+      "topics": []
+    },
+    {
+      "name": "Silicon",
+      "url": "https://github.com/itsmangooo/Silicon",
+      "description": "Self-hosted application hosting across your servers and AWS — deployments, networking, Cloudflare, costs, and more.",
+      "language": "Go",
+      "languages": {
+        "Go": 1002671,
+        "JavaScript": 365102,
+        "CSS": 46215,
+        "Shell": 24357,
+        "Makefile": 828,
+        "Dockerfile": 698,
+        "HTML": 478
+      },
+      "stars": 0,
+      "pushedAt": "2026-11-18T09:31:22Z",
+      "archived": false,
+      "topics": [
+        "aws",
+        "cloudflare",
+        "deployment",
+        "deployment-manager",
+        "developer-tool",
+        "devops",
+        "docker",
+        "golang",
+        "homelab",
+        "hosting",
+        "hybrid-cloud",
+        "infrastructure",
+        "linux",
+        "networking",
+        "paas",
+        "platform",
+        "react",
+        "self-hosted",
+        "selfhosting",
+        "wireguard"
+      ]
+    },
+    {
+      "name": "Silicon-Docs",
+      "url": "https://github.com/itsmangooo/Silicon-Docs",
+      "description": "Public operator, developer, architecture, and security documentation for Silicon.",
+      "language": "JavaScript",
+      "languages": {
+        "JavaScript": 128841,
+        "CSS": 58436
+      },
+      "stars": 0,
+      "pushedAt": "2026-11-18T09:26:47Z",
+      "archived": false,
+      "topics": [
+        "deployment",
+        "developer-tools",
+        "documentation",
+        "docusaurus",
+        "javascript",
+        "self-hosted"
+      ]
+    }
+  ],
+  "days": [
+    {
+      "date": "2025-11-23",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-11-24",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-11-25",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-11-26",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-11-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-11-28",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-11-29",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-11-30",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-03",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-04",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-05",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-07",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-09",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-13",
+      "commits": 1,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 1,
+      "total": 2
+    },
+    {
+      "date": "2025-12-14",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-15",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-17",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-18",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-19",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-20",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-22",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-23",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-24",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-25",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-26",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-28",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-29",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-30",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2025-12-31",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-03",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-04",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-05",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-07",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-09",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-13",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-14",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-15",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-17",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-18",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-19",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-20",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-22",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-23",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-24",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-25",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-26",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-28",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-29",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-30",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-01-31",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-03",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-04",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-05",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-07",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-09",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-13",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-14",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-15",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-17",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-18",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-19",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-20",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-22",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-23",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-24",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-25",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-26",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-02-28",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-03",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-04",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-05",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-07",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-09",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-13",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-14",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-15",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-17",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-18",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-19",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-20",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-22",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-23",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-24",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-25",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-26",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-28",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-29",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-30",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-03-31",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-03",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-04",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-05",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-07",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-09",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-13",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-14",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-15",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-17",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-18",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-19",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-20",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-22",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-23",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-24",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-25",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-26",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-28",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-29",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-04-30",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-03",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-04",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-05",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-07",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-09",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-13",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-14",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-15",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-17",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-18",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-19",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-20",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-22",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-23",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-24",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-25",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-26",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-28",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-29",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-30",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-05-31",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-03",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-04",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-05",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-07",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-09",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-13",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-14",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-15",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-17",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-18",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-19",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-20",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-22",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-23",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-24",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-25",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-26",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-28",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-29",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-06-30",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-03",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-04",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-05",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-07",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-09",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-13",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-14",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-15",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-17",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-18",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-19",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-20",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-22",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-23",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-24",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-25",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-26",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-28",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-29",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-30",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-07-31",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-03",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-04",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-05",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-07",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-09",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-13",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-14",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-15",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-17",
+      "commits": 6,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 6
+    },
+    {
+      "date": "2026-08-18",
+      "commits": 2,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-08-19",
+      "commits": 7,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 7
+    },
+    {
+      "date": "2026-08-20",
+      "commits": 12,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 12
+    },
+    {
+      "date": "2026-08-21",
+      "commits": 8,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 8
+    },
+    {
+      "date": "2026-08-22",
+      "commits": 4,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 4
+    },
+    {
+      "date": "2026-08-23",
+      "commits": 6,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 6
+    },
+    {
+      "date": "2026-08-24",
+      "commits": 9,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 9
+    },
+    {
+      "date": "2026-08-25",
+      "commits": 2,
+      "issues": 0,
+      "pullRequests": 1,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 3
+    },
+    {
+      "date": "2026-08-26",
+      "commits": 7,
+      "issues": 0,
+      "pullRequests": 1,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 8
+    },
+    {
+      "date": "2026-08-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-28",
+      "commits": 3,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 3
+    },
+    {
+      "date": "2026-08-29",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-08-30",
+      "commits": 2,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-08-31",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-09-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-09-02",
+      "commits": 8,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 1,
+      "total": 9
+    },
+    {
+      "date": "2026-09-03",
+      "commits": 2,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-09-04",
+      "commits": 7,
+      "issues": 0,
+      "pullRequests": 4,
+      "reviews": 1,
+      "repositories": 0,
+      "total": 12
+    },
+    {
+      "date": "2026-09-05",
+      "commits": 54,
+      "issues": 0,
+      "pullRequests": 31,
+      "reviews": 1,
+      "repositories": 0,
+      "total": 86
+    },
+    {
+      "date": "2026-09-06",
+      "commits": 32,
+      "issues": 0,
+      "pullRequests": 19,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 51
+    },
+    {
+      "date": "2026-09-07",
+      "commits": 6,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 6
+    },
+    {
+      "date": "2026-09-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-09-09",
+      "commits": 3,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 3
+    },
+    {
+      "date": "2026-09-10",
+      "commits": 2,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-09-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-09-12",
+      "commits": 1,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 1
+    },
+    {
+      "date": "2026-09-13",
+      "commits": 4,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 4
+    },
+    {
+      "date": "2026-09-14",
+      "commits": 9,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 9
+    },
+    {
+      "date": "2026-09-15",
+      "commits": 6,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 6
+    },
+    {
+      "date": "2026-09-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-09-17",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-09-18",
+      "commits": 1,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 1
+    },
+    {
+      "date": "2026-09-19",
+      "commits": 6,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 6
+    },
+    {
+      "date": "2026-09-20",
+      "commits": 12,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 12
+    },
+    {
+      "date": "2026-09-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-09-22",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-09-23",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-09-24",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-09-25",
+      "commits": 4,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 1,
+      "total": 5
+    },
+    {
+      "date": "2026-09-26",
+      "commits": 14,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 14
+    },
+    {
+      "date": "2026-09-27",
+      "commits": 5,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 5
+    },
+    {
+      "date": "2026-09-28",
+      "commits": 4,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 4
+    },
+    {
+      "date": "2026-09-29",
+      "commits": 7,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 7
+    },
+    {
+      "date": "2026-09-30",
+      "commits": 2,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-10-01",
+      "commits": 2,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-10-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-03",
+      "commits": 7,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 1,
+      "total": 8
+    },
+    {
+      "date": "2026-10-04",
+      "commits": 2,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-10-05",
+      "commits": 4,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 4
+    },
+    {
+      "date": "2026-10-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-07",
+      "commits": 1,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 1
+    },
+    {
+      "date": "2026-10-08",
+      "commits": 3,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 3
+    },
+    {
+      "date": "2026-10-09",
+      "commits": 2,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 2
+    },
+    {
+      "date": "2026-10-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-13",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-14",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-15",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-17",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-18",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-19",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-20",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 1,
+      "total": 1
+    },
+    {
+      "date": "2026-10-22",
+      "commits": 7,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 7
+    },
+    {
+      "date": "2026-10-23",
+      "commits": 6,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 6
+    },
+    {
+      "date": "2026-10-24",
+      "commits": 6,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 6
+    },
+    {
+      "date": "2026-10-25",
+      "commits": 1,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 1
+    },
+    {
+      "date": "2026-10-26",
+      "commits": 3,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 3
+    },
+    {
+      "date": "2026-10-27",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-28",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-29",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-30",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-10-31",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-01",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-02",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-03",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-04",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-05",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-06",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-07",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-08",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-09",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-10",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-11",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-12",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-13",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-14",
+      "commits": 12,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 12
+    },
+    {
+      "date": "2026-11-15",
+      "commits": 22,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 22
+    },
+    {
+      "date": "2026-11-16",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-17",
+      "commits": 31,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 1,
+      "total": 32
+    },
+    {
+      "date": "2026-11-18",
+      "commits": 17,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 17
+    },
+    {
+      "date": "2026-11-19",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-20",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-21",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-22",
+      "commits": 0,
+      "issues": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "repositories": 0,
+      "total": 0
+    }
+  ]
+}

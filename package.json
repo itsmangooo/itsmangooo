@@ -1,0 +1,14 @@
+{
+  "name": "mango-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A public-data-only GitHub profile, drawn with JavaScript and SVG.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "render": "node scripts/generate.js --offline",
+    "test": "node --test",
+    "check": "node scripts/check.js"
+  }
+}
