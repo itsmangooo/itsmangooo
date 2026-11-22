@@ -56,6 +56,9 @@ Only an allowlist of public fields and derived daily counts enters
 [`data/snapshot.json`](../data/snapshot.json). No full authenticated API response
 is committed. The same input renders byte-for-byte identical assets; no run
 timestamp creates unnecessary commits. The visible date changes at most daily.
+Image references include a short SHA-256 digest of each SVG's content, so a
+changed widget receives a new cache URL while unchanged artwork retains its URL.
+This prevents a refreshed README from displaying a cached previous snapshot.
 
 ## Design and accessibility
 

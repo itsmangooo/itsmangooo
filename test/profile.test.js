@@ -4,7 +4,7 @@ import { mkdtemp, readFile, rm, mkdir, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { addDays, windowFor, monthWindows, fetchContributions, createClient, validateSnapshot } from '../scripts/github.js';
-import { renderAssets, languageDistribution, weeklyTotals, escapeXml } from '../scripts/render.js';
+import { renderAssets, renderReadme, languageDistribution, weeklyTotals, escapeXml } from '../scripts/render.js';
 import { generate } from '../scripts/generate.js';
 import { projects, login } from '../scripts/config.js';
 
@@ -110,6 +110,17 @@ test('snapshot arithmetic and contiguous dates are validated',()=>{
   const data=fixture();validateSnapshot(data,login);
   data.days[10].total++;
   assert.throws(()=>validateSnapshot(data,login),/contribution day/);
+});
+
+test('changed widgets receive new image URLs while unchanged artwork keeps its cache',()=>{
+  const data=fixture();
+  const before=renderReadme(data);
+  data.days.at(-1).commits++;data.days.at(-1).total++;
+  const after=renderReadme(data);
+  const reference=(readme,name)=>readme.match(new RegExp(`assets/${name}-dark\\.svg\\?v=[a-f0-9]{12}`))[0];
+  assert.notEqual(reference(before,'stats'),reference(after,'stats'));
+  assert.notEqual(reference(before,'calendar'),reference(after,'calendar'));
+  assert.equal(reference(before,'header'),reference(after,'header'));
 });
 
 test('SVG text is escaped and all widgets render even with no activity',()=>{

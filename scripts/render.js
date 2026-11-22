@@ -1,5 +1,6 @@
 import { projects } from './config.js';
 import { addDays } from './github.js';
+import { createHash } from 'node:crypto';
 
 export const palettes = {
   dark: { bg: '#191c1a', panel: '#202421', line: '#3a413a', text: '#eeeae0', dim: '#aeb6a9',
@@ -238,13 +239,20 @@ export function renderAssets(data) {
   return assets;
 }
 
-function picture(asset, alt, width) {
-  const compact=asset==='calendar'?`<source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/calendar-mobile-dark.svg"><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/calendar-mobile-light.svg">`:'';
-  return `<picture>${compact}<source media="(prefers-color-scheme: dark)" srcset="assets/${asset}-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/${asset}-light.svg"><img src="assets/${asset}-light.svg" alt="${escapeXml(alt)}" width="${width}"></picture>`;
+function pictureWithVersions(asset, alt, width, assets) {
+  const source=name=>{
+    const content=assets.get(name);
+    if(!content) throw new Error(`Missing picture asset: ${name}`);
+    return `assets/${name}?v=${createHash('sha256').update(content).digest('hex').slice(0,12)}`;
+  };
+  const compact=asset==='calendar'?`<source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="${source('calendar-mobile-dark.svg')}"><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="${source('calendar-mobile-light.svg')}">`:'';
+  return `<picture>${compact}<source media="(prefers-color-scheme: dark)" srcset="${source(`${asset}-dark.svg`)}"><source media="(prefers-color-scheme: light)" srcset="${source(`${asset}-light.svg`)}"><img src="${source(`${asset}-light.svg`)}" alt="${escapeXml(alt)}" width="${width}"></picture>`;
 }
 
 export function renderReadme(data) {
   const total = data.days.reduce((sum,day)=>sum+day.total,0);
+  const assets=renderAssets(data);
+  const picture=(asset,alt,width)=>pictureWithVersions(asset,alt,width,assets);
   return `${picture('header','mango — itsmangooo. Small tools, connected systems, a few games.',800)}
 
 I’m mango. I build things I want to use: tools for a homelab, places to deploy them, and games to share with friends.

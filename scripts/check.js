@@ -2,6 +2,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { login } from './config.js';
 import { validateSnapshot } from './github.js';
 import { renderAssets, renderReadme } from './render.js';
@@ -21,6 +22,11 @@ for (const [name,content] of expected) {
 const readme=await readFile(resolve(root,'README.md'),'utf8');
 assert.equal(readme,renderReadme(data),'README differs from its generator.');
 const refs=[...readme.matchAll(/(?:src|srcset)="(assets\/[^" ]+)"/g)].map(match=>match[1]);
-for (const path of refs) await readFile(resolve(root,path));
+for (const ref of refs) {
+  const [path,query]=ref.split('?');
+  const content=await readFile(resolve(root,path),'utf8');
+  assert.equal(query,`v=${createHash('sha256').update(content).digest('hex').slice(0,12)}`,
+    `Image cache version does not match content: ${path}`);
+}
 assert.doesNotMatch(readme,/<style|<script|style=/i);
 console.log(`Verified ${expected.size} SVGs, ${refs.length} image references, snapshot arithmetic, and generated README.`);
