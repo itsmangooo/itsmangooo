@@ -2,17 +2,16 @@ import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import assert from 'node:assert/strict';
-import { createHash } from 'node:crypto';
 import { login } from './config.js';
 import { validateSnapshot } from './github.js';
-import { renderAssets, renderReadme } from './render.js';
+import { renderAssets, renderReadme, assetFilename } from './render.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const data = validateSnapshot(JSON.parse(await readFile(resolve(root,'data/snapshot.json'),'utf8')),login);
 const expected = renderAssets(data);
 assert.equal((await readdir(resolve(root,'assets'))).filter(name=>name.endsWith('.svg')).length, expected.size);
 for (const [name,content] of expected) {
-  assert.equal(await readFile(resolve(root,'assets',name),'utf8'),content,`Stale asset: ${name}`);
+  assert.equal(await readFile(resolve(root,'assets',assetFilename(name,content)),'utf8'),content,`Stale asset: ${name}`);
   assert.match(content,/<svg[^>]+viewBox=/);
   assert.match(content,/<title id="title">/);
   assert.match(content,/<desc id="desc">/);
@@ -23,10 +22,9 @@ const readme=await readFile(resolve(root,'README.md'),'utf8');
 assert.equal(readme,renderReadme(data),'README differs from its generator.');
 const refs=[...readme.matchAll(/(?:src|srcset)="(assets\/[^" ]+)"/g)].map(match=>match[1]);
 for (const ref of refs) {
-  const [path,query]=ref.split('?');
-  const content=await readFile(resolve(root,path),'utf8');
-  assert.equal(query,`v=${createHash('sha256').update(content).digest('hex').slice(0,12)}`,
-    `Image cache version does not match content: ${path}`);
+  const content=await readFile(resolve(root,ref),'utf8');
+  const base=ref.slice('assets/'.length).replace(/-[a-f0-9]{12}\.svg$/,'.svg');
+  assert.equal(ref,`assets/${assetFilename(base,content)}`,`Image cache version does not match content: ${ref}`);
 }
 assert.doesNotMatch(readme,/<style|<script|style=/i);
 console.log(`Verified ${expected.size} SVGs, ${refs.length} image references, snapshot arithmetic, and generated README.`);

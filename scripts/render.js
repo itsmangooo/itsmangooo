@@ -11,6 +11,8 @@ export const palettes = {
 export const escapeXml = value => String(value).replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;',
 }[char]));
+export const assetFilename=(name,content)=>name.replace(/\.svg$/,
+  `-${createHash('sha256').update(content).digest('hex').slice(0,12)}.svg`);
 const number = value => value.toLocaleString('en-US');
 const dateLabel = value => new Date(value + 'T00:00:00Z').toLocaleDateString('en-GB', {
   day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC',
@@ -243,7 +245,9 @@ function pictureWithVersions(asset, alt, width, assets) {
   const source=name=>{
     const content=assets.get(name);
     if(!content) throw new Error(`Missing picture asset: ${name}`);
-    return `assets/${name}?v=${createHash('sha256').update(content).digest('hex').slice(0,12)}`;
+    // GitHub's /raw/ redirect strips query strings. Put the digest in the path
+    // itself so browser and CDN caches cannot serve another snapshot's bytes.
+    return `assets/${assetFilename(name,content)}`;
   };
   const compact=asset==='calendar'?`<source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="${source('calendar-mobile-dark.svg')}"><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="${source('calendar-mobile-light.svg')}">`:'';
   return `<picture>${compact}<source media="(prefers-color-scheme: dark)" srcset="${source(`${asset}-dark.svg`)}"><source media="(prefers-color-scheme: light)" srcset="${source(`${asset}-light.svg`)}"><img src="${source(`${asset}-light.svg`)}" alt="${escapeXml(alt)}" width="${width}"></picture>`;

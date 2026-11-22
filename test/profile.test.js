@@ -117,7 +117,7 @@ test('changed widgets receive new image URLs while unchanged artwork keeps its c
   const before=renderReadme(data);
   data.days.at(-1).commits++;data.days.at(-1).total++;
   const after=renderReadme(data);
-  const reference=(readme,name)=>readme.match(new RegExp(`assets/${name}-dark\\.svg\\?v=[a-f0-9]{12}`))[0];
+  const reference=(readme,name)=>readme.match(new RegExp(`assets/${name}-dark-[a-f0-9]{12}\\.svg`))[0];
   assert.notEqual(reference(before,'stats'),reference(after,'stats'));
   assert.notEqual(reference(before,'calendar'),reference(after,'calendar'));
   assert.equal(reference(before,'header'),reference(after,'header'));

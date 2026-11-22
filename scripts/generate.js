@@ -1,9 +1,9 @@
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve, dirname } from 'node:path';
 import { login } from './config.js';
 import { fetchSnapshot, validateSnapshot } from './github.js';
-import { renderAssets, renderReadme } from './render.js';
+import { renderAssets, renderReadme, assetFilename } from './render.js';
 
 export async function generate({ root, offline = false, token, now, fetchImpl, sleep } = {}) {
   const snapshot = offline
@@ -11,7 +11,8 @@ export async function generate({ root, offline = false, token, now, fetchImpl, s
     : await fetchSnapshot({ token, login, now, fetchImpl, sleep });
   validateSnapshot(snapshot,login);
   // Compute and validate everything before touching the previous good outputs.
-  const outputs = new Map([...renderAssets(snapshot)].map(([name,content])=>[`assets/${name}`,content]));
+  const assets=renderAssets(snapshot);
+  const outputs = new Map([...assets].map(([name,content])=>[`assets/${assetFilename(name,content)}`,content]));
   outputs.set('README.md',renderReadme(snapshot));
   outputs.set('data/snapshot.json',JSON.stringify(snapshot,null,2)+'\n');
   let changed = 0;
@@ -23,6 +24,15 @@ export async function generate({ root, offline = false, token, now, fetchImpl, s
     await mkdir(dirname(target),{recursive:true});
     await writeFile(target,content,'utf8');
     changed++;
+  }
+  // Keep only the current generated versions. Recognize our own semantic names;
+  // never remove unrelated files someone adds to the assets directory.
+  for(const name of await readdir(resolve(root,'assets'))) {
+    const oldBase=name.replace(/-[a-f0-9]{12}\.svg$/,'.svg');
+    if(assets.has(oldBase) && !outputs.has(`assets/${name}`)) {
+      await unlink(resolve(root,'assets',name));
+      changed++;
+    }
   }
   return { changed, snapshot };
 }

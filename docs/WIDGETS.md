@@ -56,9 +56,13 @@ Only an allowlist of public fields and derived daily counts enters
 [`data/snapshot.json`](../data/snapshot.json). No full authenticated API response
 is committed. The same input renders byte-for-byte identical assets; no run
 timestamp creates unnecessary commits. The visible date changes at most daily.
-Image references include a short SHA-256 digest of each SVG's content, so a
-changed widget receives a new cache URL while unchanged artwork retains its URL.
-This prevents a refreshed README from displaying a cached previous snapshot.
+Image filenames include a short SHA-256 digest of each SVG's content, so a changed
+widget receives a new cache URL while unchanged artwork retains its URL. The digest
+is in the filename because GitHub strips query strings from repository-image
+redirects. Only current generated versions remain in `assets/`; the generator
+removes its own superseded files and preserves unrelated files. Git history retains
+older versions. This prevents a refreshed README from displaying a cached previous
+snapshot and avoids accumulating duplicate generated files on the current branch.
 
 ## Design and accessibility
 
